@@ -1,0 +1,16 @@
+OK sumsize == 0
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "KEY") == nullptr
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "K") == nullptr
+OK ::jnp1::dict_size(id) == 0
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "KEY") == nullptr
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "K") == nullptr
+OK ::jnp1::dict_size(id) == 0
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "KEY") == nullptr
+OK ::jnp1::dict_find(id, "KEY12") == nullptr
+OK ::jnp1::dict_find(id, "K") == nullptr
+OK ::jnp1::dict_size(id) == 0

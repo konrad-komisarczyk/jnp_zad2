@@ -1,0 +1,19 @@
+input: ./downloaded_tests/*.in
+testing_script_err: ignore
+good_output: ./downloaded_tests/%input_file_name.out
+executions:
+    - dicttest
+hooks:
+    init:
+        - mkdir -p ./bin
+        - echo %{bwarn}[INFO] Compile dict and dictglobal...%{ewarn}
+        - '[ -f ./bin/dict.o ] || g++ -c -Wall -Wextra -O2 -std=c++17 -DNDEBUG -I "." ./dict.cc -o ./bin/dict.o'
+        - '[ -f ./bin/dictglobal.o ] || g++ -c -Wall -Wextra -O2 -std=c++17 -DNDEBUG -I "." ./dictglobal.cc -o ./bin/dictglobal.o'
+        - echo %{bwarn}[DONE] Compilation done.%{ewarn}
+    test_case_start:
+        - '[ -f ./bin/%{input_file_name}.o ] || g++ -c -Wall -Wextra -O2 -std=c++17 -DNDEBUG -I "." ./downloaded_tests/%{input_file_name}.cc -o ./bin/%{input_file_name}.o'
+        - '[ -f ./bin/%{input_file_name} ] || g++ ./bin/%{input_file_name}.o ./bin/dict.o ./bin/dictglobal.o -o ./bin/%{input_file_name}'
+dicttest:
+    command: ./bin/%{input_file_name}
+    
+   

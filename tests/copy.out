@@ -1,0 +1,58 @@
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 42
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 42
+OK ::jnp1::dict_size(1) == 0
+OK ::jnp1::dict_size(2) == 0
+OK ::jnp1::dict_size(3) == 0
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 42
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 42
+OK ::jnp1::dict_size(1) == 0
+OK ::jnp1::dict_size(2) == 0
+OK ::jnp1::dict_size(3) == 0
+OK ::jnp1::dict_size(id) == 42
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK std::string(::jnp1::dict_find(id, key.c_str())) == value
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 0
+OK ::jnp1::dict_size(id) == 42
+OK ::jnp1::dict_size(id) == 142
+OK ::jnp1::dict_size(id) == 0
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 42

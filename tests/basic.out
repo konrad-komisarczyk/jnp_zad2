@@ -1,0 +1,18 @@
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 0
+OK streq(::jnp1::dict_find(d1, "k0"), "a", 2)
+OK streq(::jnp1::dict_find(d1, "k1"), "aa", 3)
+OK ::jnp1::dict_size(d1) == 2
+OK ::jnp1::dict_find(d1, "k1") == NULL
+OK streq(::jnp1::dict_find(d1, "k0"), "a", 2)
+OK ::jnp1::dict_size(d1) == 1
+OK streq(::jnp1::dict_find(d1, "k0"), "a", 2)
+OK ::jnp1::dict_size(d1) == 1
+OK ::jnp1::dict_size(d1) == 1
+OK ::jnp1::dict_size(d1) == 1
+OK ::jnp1::dict_size(d1) == 0
+OK ::jnp1::dict_find(d1, "k0") == NULL
+OK ::jnp1::dict_size(d3) == 3
+OK ::jnp1::dict_size(d3) == 0
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 1
+OK streq(::jnp1::dict_find(d1, "g0"), "d", 2)
+OK ::jnp1::dict_size(::jnp1::dict_global()) == 1
